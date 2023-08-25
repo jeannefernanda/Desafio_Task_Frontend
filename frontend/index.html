@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Task Manager</h1>
+
+        <form id="task-form">
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="description" placeholder="Description">
+            <select id="status">
+                <option value="PENDING">Pending</option>
+                <option value="IN_PROGRESS">In Progress</option>
+                <option value="COMPLETED">Completed</option>
+            </select>
+            <button type="submit">Add Task</button>
+        </form>
+
+        <div id="task-list"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
